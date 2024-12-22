@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>食物抽籤 App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>食物抽籤 App</h1>
+    <p>點擊按鈕隨機選擇今天吃什麼！</p>
+
+    <!-- 顯示食物清單 -->
+    <ul id="food-list">
+      <li>西式</li>
+      <li>火鍋</li>
+      <li>日式</li>
+      <li>韓式</li>
+      <li>拉麵</li>
+    </ul>
+
+    <!-- 隨機抽籤按鈕 -->
+    <button id="draw-button">隨機抽籤</button>
+
+    <!-- 顯示抽籤結果 -->
+    <div id="result">結果會顯示在這裡</div>
+
+    <!-- 新增食物選項 -->
+    <input type="text" id="new-food" placeholder="新增食物選項">
+    <button id="add-button">新增</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
